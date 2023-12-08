@@ -26,10 +26,13 @@ optional arguments:
 [ERROR] Please provide at least one parameter (-f or -p).
 ```
 **单IP扫描**
-![image](https://github.com/novysodope/ICscan/assets/45167857/b212686f-3c3a-4b20-a65d-3da1e447ee21)
+![image](https://github.com/Fupo-series/ICS-Tools/assets/45167857/81aea0c2-4ff9-4b07-9623-41067071edc2)
+
 
 **IP段扫描**
-![image](https://github.com/novysodope/ICscan/assets/45167857/389b8dcc-591c-4427-944a-740b127ac856)
+![image](https://github.com/Fupo-series/ICS-Tools/assets/45167857/b135bfcd-0494-4931-8d98-c2b5206fe520)
+
 
 **批量扫描**
-![image](https://github.com/novysodope/ICscan/assets/45167857/6ed95e72-80d6-436d-b981-8198219a128a)
+![image](https://github.com/Fupo-series/ICS-Tools/assets/45167857/5fe98798-a605-42db-8fb6-560638ea4fa5)
+
