@@ -53,7 +53,7 @@ python script.py 0.0.0.0/24
 ![image](https://github.com/Fupo-series/ICS-Tools/assets/45167857/b135bfcd-0494-4931-8d98-c2b5206fe520)
 ## 批量扫描
 ![image](https://github.com/Fupo-series/ICS-Tools/assets/45167857/5fe98798-a605-42db-8fb6-560638ea4fa5)
-## modbus协议识别
+## modbus协议识别(以罗克韦尔和施耐德为例)
 <img width="951" alt="image" src="https://github.com/Fupo-series/ICS-Tools/assets/48084662/65e5fd84-440e-4c9d-b806-f0719bb9cd68">
 <img width="924" alt="image" src="https://github.com/Fupo-series/ICS-Tools/assets/48084662/7c95274e-014f-4912-b911-b1d9e7478827">
 
