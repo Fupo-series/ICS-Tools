@@ -65,32 +65,28 @@ def print_progress_bar():
 
 def send_modbus_request(ip, port=502, request_data="00 00 00 00 00 05 00 2b 0e 01 00", timeout=5):
     print(f'{YELLOW}[CUTRENT INFO] {RESET} {ip}')
-    # 创建 socket 对象
+
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client.settimeout(timeout)  # 设置超时,默认五秒如果嫌长可以缩短
+    client.settimeout(timeout)
     
     try:
         progress_bar_length = 8
         for _ in range(progress_bar_length):
             print_progress_bar()
         # print("\n")
-        # 连接到服务器
+
         client.connect((ip, port))
         
-        # 发送请求数据
         request_bytes = bytes.fromhex(request_data)
         client.sendall(request_bytes)
         
-        # 接收响应数据
         response = client.recv(1024)
         
-        # 如果返回为空或者响应长度不足
         if not response or len(response) < 5:
              print(f"\n{YELLOW}[PROMPT] {RESET}{ip}:{port}")
              addr = f"{ip}:{port}"
              print_result(addr,"当前为工控设备但无法识别详细信息")
         else:
-            # 将响应数据转换为ASCII字符串，忽略无法解码的部分
             ascii_response = response.decode('ascii', errors='ignore')
             printable_response = ''.join(filter(lambda x: x.isprintable(), ascii_response))
             
@@ -117,7 +113,6 @@ def scan_subnet(subnet, port=502):
     for ip in ip_network(subnet):
         send_modbus_request(str(ip), port)
 
-# 如何使用
 if __name__ == "__main__":
     print_copyright()
     if len(sys.argv) < 2:
