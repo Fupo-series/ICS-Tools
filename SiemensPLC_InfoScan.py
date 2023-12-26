@@ -134,7 +134,7 @@ if __name__ == '__main__':
     else:
         print_copyright()
         timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-        filename = f"results_{timestamp}.txt"
+        filename = f"Siemens_results_{timestamp}.txt"
 
         if args.file:
             print(f'{GREEN}[TARGET] {RESET}', args.file)
