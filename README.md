@@ -24,6 +24,26 @@ optional arguments:
 
 [ERROR] Please provide at least one parameter (-f or -p).
 ```
+## modbus协议识别
+```bash
+$ python3 ModbusPLC_InfoScan.py
+
+__________________________________________
+ ____  ___  ___   ___    __    _  _
+(_  _)/ __)/ __) / __)  /__\  ( \( )
+ _)(_( (__ \__ \( (__  /(__)\  )  (
+(____)\___)(___/ \___)(__)(__)(_)\_)
+
+    Identify for Modbus protocol
+       ver1.0 by 01dGu0 & Novy
+__________________________________________
+
+
+[ERROR] Please enter the IP or IP segment, e.g.
+python script.py 0.0.0.0 --default 502
+python script.py 0.0.0.0:502
+python script.py 0.0.0.0/24
+```
 **单IP扫描**
 ![image](https://github.com/Fupo-series/ICS-Tools/assets/45167857/81aea0c2-4ff9-4b07-9623-41067071edc2)
 
