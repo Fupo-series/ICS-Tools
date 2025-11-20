@@ -141,7 +141,7 @@ python CIP_InfoScan.py 0.0.0.0:44818
 python CIP_InfoScan.py 0.0.0.0/24
 ```
 
-## UMAS协议识别(横河设备):
+## UMAS协议识别:
 ```bash
 $ python3 UMAS_InfoScan.py
 
@@ -161,7 +161,7 @@ python UMAS_InfoScan.py 0.0.0.0:20171
 python UMAS_InfoScan.py 0.0.0.0/24
 ```
 
-## FINS协议识别(欧姆龙设备):
+## FINS协议识别:
 ```bash
 $ python3 FINS_InfoScan.py
 
