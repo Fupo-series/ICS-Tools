@@ -1,6 +1,8 @@
 # ICS Tools
 工控设备信息识别工具箱，旨在快速识别攻防演练中轨道交通、燃气、水利等行业内网场景、传统工业内网中的工业控制设备型号与指纹。工具相比ISF和NMAP等更简单易用且体积更小，支持多协议统一扫描与精准识别。
 
+注意:识别和显示上可能会有点Bug,但是我并没有进行全面的测试,如果遇到bug和错误请务必提Issues告知我,当然如果你希望添加新功能也可以告诉我！！！！！
+
 ## 🚀 快速开始 - 推荐使用统一扫描器
 ```bash
 python3 ICS_Scanner.py -t 192.168.1.100
@@ -224,13 +226,16 @@ python script.py 0.0.0.0/24
 ```
 ## 示例输出
 以下为工具扫描真实工控设备的输出示例：
-![image](https://github.com/Fupo-series/ICS-Tools/assets/45167857/81aea0c2-4ff9-4b07-9623-41067071edc2)
-## IP段扫描
-![image](https://github.com/Fupo-series/ICS-Tools/assets/45167857/b135bfcd-0494-4931-8d98-c2b5206fe520)
-## 批量扫描
-![image](https://github.com/Fupo-series/ICS-Tools/assets/45167857/5fe98798-a605-42db-8fb6-560638ea4fa5)
-## modbus协议识别(以罗克韦尔和施耐德为例)
-<img width="951" alt="image" src="https://github.com/Fupo-series/ICS-Tools/assets/48084662/65e5fd84-440e-4c9d-b806-f0719bb9cd68">
-<img width="924" alt="image" src="https://github.com/Fupo-series/ICS-Tools/assets/48084662/7c95274e-014f-4912-b911-b1d9e7478827">
+<img width="1690" height="760" alt="274ef3499d5ccdd2764b5572c29a43fc" src="https://github.com/user-attachments/assets/bbc3995b-4ac2-4e1a-bc85-5d07d0065f42" />
+<img width="1636" height="758" alt="4495702fd4a03bbd1ca457e7e658d8c7" src="https://github.com/user-attachments/assets/d98c71d5-944a-4f86-912a-cb32ed3ff99e" />
+<img width="1682" height="760" alt="e9f56a869479bd96d7aa128e5c9b4880" src="https://github.com/user-attachments/assets/64380dcb-167d-42dc-9a68-1ac53963fbeb" />
+<img width="1686" height="756" alt="b93127378e859c8f5234086a1f539ffa" src="https://github.com/user-attachments/assets/aae08772-622b-4620-b003-389f43bc3b2c" />
+<img width="1774" height="784" alt="54b11a3b672ec0925b7053d4032bfbc7" src="https://github.com/user-attachments/assets/81590894-32b0-4f85-a3a9-319081772b82" />
+
+
+
+
+
+
 
 
